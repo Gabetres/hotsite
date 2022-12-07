@@ -1,33 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #03045E;
+    --secondary-color: #023E8A;
+    --third-color: #0096C7;
+    --text-color1: #caf0f8;
+    --text-color2: #90E0EF;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    }
-body{
-    font-size: 100%;
-    background-color: #03045e;
 }
 
-.cabeçalho{
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    background-color: var(--primary-color);
+}
+
+.cabeçalho {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #023E8A;
+    background-color: var(--secondary-color);
     padding: 25px;
 }
 
-.cabeçalho-img{
+.cabeçalho-img {
     width: 125px;
 }
 
-.cabeçalho-nav{
+.cabeçalho-nav {
     display: flex;
     gap: 25px;
 }
 
-.cabeçalho-item{
-    color: #CAF0F8;
-    font-size: 20px;  
+.cabeçalho-item {
+    font-family: 'Varela Round', sans-serif;
+    color: var(--text-color1);
+    font-size: 20px;
 }
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em;
+}
+
+.principal-seçao {
+    margin-left: 5em ;
+    margin-right: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.principal-titulo{
+    text-align: left;
+    font-weight: 800;
+    color: var(--text-color2);
+    font-size: 55px;
+}
+
+.principal-texto{
+    color: var(--text-color1);
+    font-size: 18px;
+}
+
+.principal-botao{
+    margin-top: 1.5em;
+    align-self: center;
+    width: 25em;
+    height: 5em;
+    background-color: var(--text-color2);
+    border-radius: 15px;
+    border: none;
+
+}
+
+.principal-botao:hover{
+    background-color: var(--third-color);
+    cursor: pointer;
+    
+}
+
+.principal-botao:hover > a{
+    color: var(--text-color1);
+}
+
+.principal-botao > a{
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+
+.principal-img {
+    width: 25em;
+    margin-right: 5em;
+}
+
+.rodape{
+    margin-top: 4.4em ;
+    background-color: var(--secondary-color);
+    padding: 0.5em;
+}
+
