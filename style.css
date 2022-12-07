@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+body{
+    font-size: 100%;
+    background-color: #03045e;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #023E8A;
+    padding: 25px;
+}
+
+.cabeçalho-img{
+    width: 125px;
+}
+
+.cabeçalho-nav{
+    display: flex;
+    gap: 25px;
+}
+
+.cabeçalho-item{
+    color: #CAF0F8;
+    font-size: 20px;  
+}
