@@ -135,6 +135,10 @@ body {
 }
 
 @media(max-width: 768px) {
+
+    .cabeçalho-item{
+        font-size: 11pt;
+    }
     .principal {
         display: flex;
         flex-direction: column;
