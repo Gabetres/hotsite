@@ -135,7 +135,9 @@ body {
 }
 
 @media(max-width: 768px) {
-
+    .cabeçalho-item{
+        gap:0.5em
+    }        
     .cabeçalho-item{
         font-size: 11pt;
     }
