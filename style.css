@@ -105,9 +105,21 @@ body {
     margin-right: 5em;
 }
 
-.rodape{
-    margin-top: 4.4em ;
-    background-color: var(--secondary-color);
-    padding: 0.5em;
+.push{
+    height: 50px;
 }
 
+.rodape{
+    margin-top: 4.4em;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    position: absolute; 
+    left: 0 ; 
+    right: 0; 
+    bottom: 0; 
+}
+
+.rodape-texto{
+    text-align: center;
+    color: var(--text-color1);
+}
