@@ -135,7 +135,7 @@ body {
 }
 
 @media(max-width: 768px) {
-    .cabeçalho-item{
+    .cabeçalho-nav{
         gap:0.5em
     }        
     .cabeçalho-item{
